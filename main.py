@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-parser = argparse.ArgumentParser(description='Translates text.')
+parser = argparse.ArgumentParser(description='Translates text from SOURCE to TARGET language. Reads from stdin (keyboard input - type enter to translate).')
 parser.add_argument('source', metavar='SOURCE', type=str,
                     help='the name of the source language')
 parser.add_argument('target', metavar='TARGET', type=str,
