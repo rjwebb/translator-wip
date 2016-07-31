@@ -9,7 +9,6 @@ parser.add_argument('target', metavar='TARGET', type=str,
 
 
 args = parser.parse_args()
-print(args)
 
 if args.source == args.target:
     print("Translating from {} to {} (press ctrl+c to exit)"
